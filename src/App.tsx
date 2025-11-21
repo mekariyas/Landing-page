@@ -1,4 +1,7 @@
-//import { Suspense } from "react"
+import { Suspense } from "react"
+
+import Loading from "./Component/Loading.tsx"
+
 import Hero from "./Component/Hero"
 import Navbar from "./Component/Navbar"
 import About from "./Component/About"
@@ -8,12 +11,14 @@ import Footer from "./Component/Footer"
 const App = () => {
   return (
     <>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Amenities/>
-      <Testimonials/>
-      <Footer/>
+      <Suspense fallback={<Loading/>}>
+          <Navbar/>
+          <Hero/>
+          <About/>
+          <Amenities/>
+          <Testimonials/>
+          <Footer/>
+       </Suspense>
     </>
   )
 }
