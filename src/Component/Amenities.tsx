@@ -1,7 +1,64 @@
 import { motion } from "motion/react"
-import { Amenities as AmenitiesData } from "../staticData/data"
+
+//Images import
+import Bar from "../assets/Amenities/bar.webp"
+import Conference from "../assets/Amenities/conference.webp"
+import Golf from "../assets/Amenities/golf.webp"
+import Gym from "../assets/Amenities/gym.webp"
+import Poolside from "../assets/Amenities/poolside.webp"
+import Reception from "../assets/Amenities/reception.webp"
+import Restaurant from "../assets/Amenities/restaurant.webp"
+import Spa from "../assets/Amenities/spa.webp"
+
+//Amenities data
+
+const AmenitiesData = [
+    {
+        "name":"Bar",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis nulla deserunt inventore voluptate ut, ipsa quae corrupti delectus veniam molestiae, facilis doloremque aspernatur! Maxime corporis eaque voluptatibus laboriosam exercitationem",
+        "image": Bar
+    },
+    {
+        "name":"Conference Hall",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis nulla deserunt inventore voluptate ut, ipsa quae corrupti delectus veniam molestiae, facilis doloremque aspernatur! Maxime corporis eaque voluptatibus laboriosam exercitationem",
+        "image": Conference
+    },
+    {
+        "name":"Golf",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis nulla deserunt inventore voluptate ut, ipsa quae corrupti delectus veniam molestiae, facilis doloremque aspernatur! Maxime corporis eaque voluptatibus laboriosam exercitationem",
+        "image": Golf
+    },
+    {
+        "name":"Gym",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis nulla deserunt inventore voluptate ut, ipsa quae corrupti delectus veniam molestiae, facilis doloremque aspernatur! Maxime corporis eaque voluptatibus laboriosam exercitationem",
+        "image": Gym
+    },
+    {
+        "name":"Pool",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis nulla deserunt inventore voluptate ut, ipsa quae corrupti delectus veniam molestiae, facilis doloremque aspernatur! Maxime corporis eaque voluptatibus laboriosam exercitationem",
+        "image": Poolside
+    },
+    {
+        "name":"24 hours Reception",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis nulla deserunt inventore voluptate ut, ipsa quae corrupti delectus veniam molestiae, facilis doloremque aspernatur! Maxime corporis eaque voluptatibus laboriosam exercitationem",
+        "image": Reception
+    },
+    {
+        "name":"High End Restaurant",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis nulla deserunt inventore voluptate ut, ipsa quae corrupti delectus veniam molestiae, facilis doloremque aspernatur! Maxime corporis eaque voluptatibus laboriosam exercitationem",
+        "image": Restaurant
+    },
+    {
+        "name":"Spa",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis nulla deserunt inventore voluptate ut, ipsa quae corrupti delectus veniam molestiae, facilis doloremque aspernatur! Maxime corporis eaque voluptatibus laboriosam exercitationem",
+        "image": Spa
+    }]
+
+
+
 
 //Amenities component
+
 
 const Amenities = () => {
   return (

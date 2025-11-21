@@ -1,5 +1,50 @@
 import { motion } from "motion/react"
-import { Testimonials  as TestimonialsData } from "../staticData/data"
+
+//Images import
+import Person1 from "../assets/person/Person-1.webp" 
+import Person2 from "../assets/person/Person-2.webp" 
+import Person3 from "../assets/person/Person-3.webp" 
+import Person4 from "../assets/person/Person-4.webp" 
+import Person5 from "../assets/person/Person-5.webp" 
+import Person6 from "../assets/person/Person-6.webp" 
+
+
+//Testimonial Data
+const TestimonialsData=[
+    {
+        "name": "Jessica S. Harris",
+        "quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis nulla deserunt inventore voluptate ut, ipsa quae corrupti delectus veniam molestiae, facilis doloremque aspernatur.",
+        "image": Person1
+    },
+    {
+        "name":"Arridano Roussel",
+        "quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis nulla deserunt inventore voluptate ut, ipsa quae corrupti delectus veniam molestiae, facilis doloremque aspernatur",       
+        "image": Person2
+    },
+    {
+        "name": "Fred S. Arbour",
+        "quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis nulla deserunt inventore voluptate ut, ipsa quae corrupti delectus veniam molestiae, facilis doloremque aspernatur",
+        "image": Person3
+    },
+    {
+        "name":"Sarah S. Richardson",
+        "quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis nulla deserunt inventore voluptate ut, ipsa quae corrupti delectus veniam molestiae, facilis doloremque aspernatur",
+        "image": Person4
+    },
+    {
+        "name": "Edward C. Lymon",
+        "quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis nulla deserunt inventore voluptate ut, ipsa quae corrupti delectus veniam molestiae, facilis doloremque aspernatur",
+        "image": Person5
+    },
+    {
+        "name": "Pauline M. White",
+        "quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis nulla deserunt inventore voluptate ut, ipsa quae corrupti delectus veniam molestiae, facilis doloremque aspernatur",
+        "image": Person6
+    }]
+
+
+
+
 
 const Testimonials = () => {
   
