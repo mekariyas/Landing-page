@@ -2,10 +2,10 @@ import { motion } from "motion/react"
 
 //Images import
 import Person1 from "../assets/person/Person-1.webp" 
-import Person2 from "../assets/person/Person-2.webp" 
-import Person3 from "../assets/person/Person-3.webp" 
-import Person4 from "../assets/person/Person-4.webp" 
-import Person5 from "../assets/person/Person-5.webp" 
+import Person2 from "../assets/person/person-2.webp" 
+import Person3 from "../assets/person/person-3.webp" 
+import Person4 from "../assets/person/person-4.webp" 
+import Person5 from "../assets/person/person-5.webp" 
 import Person6 from "../assets/person/Person-6.webp" 
 
 
