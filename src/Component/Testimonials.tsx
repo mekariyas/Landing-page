@@ -56,8 +56,8 @@ const Testimonials = () => {
           {/* Testimonial Data */}
           <ul className="w-full flex justify-center md:justify-start items-around flex-wrap gap-10 pl-4 pr-4 mb-4">
               {TestimonialsData.map((Testimonial,i)=>{
-            return(<motion.li initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{ease: "easeInOut", duration:2, delay: 0.5 }} key={i} className="w-[full] md:w-[30%] h-[90vh] flex flex-col items-center gap-3 shadow-lg shadow-blue-400 inset-shadow-blue-200 rounded-md">
-              <img src={Testimonial.image} alt={Testimonial.name} className="h-[50%] w-full rounded-tr-md rounded-tl-md object-fit-cover"/>
+            return(<motion.li initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{ease: "easeInOut", duration:2, delay: 0.5 }} key={i} className="w-[75%] md:w-[30%] h-[90vh] flex flex-col items-center gap-3 shadow-lg shadow-blue-400 inset-shadow-blue-200 rounded-md">
+              <img src={Testimonial.image} alt={Testimonial.name} className="h-[50%] w-full rounded-tr-md rounded-tl-md object-fit-cover" loading="lazy"/>
               <h3 className="w-full text-xl md:text-3xl font-bold text-center">{Testimonial.name}</h3>
               <p className="md:text-lg font-medium text-gray w-[90%] md:w-full md:p-4 italic">"{Testimonial.quote}"</p>
             </motion.li>)

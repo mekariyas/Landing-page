@@ -69,7 +69,7 @@ const Amenities = () => {
         {/* Amenities data */}
         <ul className="w-full flex justify-center md:justify-start items-around flex-wrap gap-10 pl-4 pr-4 mb-4">
           {AmenitiesData.map((Amenity,i)=>{
-            return(<motion.li initial={{scale: 0, opacity: 0}} whileInView={{scale: 1, opacity: 1}} transition={{ease: "easeInOut", duration:2, delay: 0.2 }} key={i} className="w-[full] md:w-[30%] h-[90vh] flex flex-col items-center gap-3 shadow-lg shadow-blue-400 inset-shadow-blue-200 rounded-md">
+            return(<motion.li initial={{scale: 0, opacity: 0}} whileInView={{scale: 1, opacity: 1}} transition={{ease: "easeInOut", duration:2, delay: 0.2 }} key={i} className="w-[80%] md:w-[30%] h-[94vh] flex flex-col items-center gap-3 shadow-lg shadow-blue-400 inset-shadow-blue-200 rounded-md">
               <img src={Amenity.image} alt={Amenity.name} className="h-[50%] w-full rounded-tr-md rounded-tl-md"/>
               <h3 className="w-full text-xl md:text-3xl font-bold text-center">{Amenity.name}</h3>
               <p className="md:text-lg font-medium text-gray w-[90%] md:w-full md:p-4">{Amenity.text}</p>
